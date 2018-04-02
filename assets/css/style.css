@@ -22,7 +22,7 @@ h3{
 
 a {
     color: #ff9999;
-    transition: all 0.5s ease-in-out;
+    transition: color,text-shadow 0.5s ease-in-out;
 }
 
 a:hover {
@@ -66,10 +66,11 @@ header {
 
 }
 
-.logo p {
+.logo a {
     font-size: 60px;
     line-height: 1em;
     font-weight: 500;
+    color: #fff;
 }
 
 .subhead {
@@ -176,13 +177,58 @@ width: 2.5em;
 
 
  
+        
+
+.large {
+    font-size: 1.5em;
+}
+
+
+
+
+
+.read-more {
+    float: right;
+    color: #000;
+    background: #fff;
+    padding: 0 10px;
+    border-radius: 5%;
+    font-weight: bold;
+    margin: 5px;}
     
+
+.timeline-item{
+    padding: 0em 0em 1em 3em;
+    position: relative;
+    border-left: 3px solid;
+    margin-left: 1em;
+}
+
+
+.timeline-item p{
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before{
+    content: attr(dates);
+    position: absolute;
+    left: -1.2em;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    font-weight: 500;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5em;
+    background-color: #463939;
+    padding-top: 0.2em;
+}
 
 
 
     /* ----- media rules------*/
     @media (min-width: 992px) {
-        .logo p {
+        .logo a {
             font-size:95px;
         }
 
