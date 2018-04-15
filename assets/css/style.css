@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite|PT+Serif');
 
-
-
 /* ----- Main elements------*/
 
 body {
@@ -40,7 +38,12 @@ a:hover {
 
 .center {
     text-align: center;
+    clear: both;
 }
+
+
+
+
 
 
 /* ----- header------*/
@@ -54,12 +57,16 @@ header {
 
 
 .main-picture {
-    background: url("../images/forestmono.jpg");
+    background: url("../images/trees-mono.jpg");
     opacity: 0.8;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     min-height: 150px;
+    -moz-transition: background .3s linear;
+    -webkit-transition: background .3s linear;
+    -o-transition: background .3s linear;
+    transition: background .3s linear;
 }
 
 .logo {
@@ -126,7 +133,6 @@ header {
 
 
 
-
 /* ----- side-panel------*/
 
 .sidebar {
@@ -134,11 +140,39 @@ header {
 }
 
 
-.sidebar img {
-    width: 45%;
+
+
+/* ----- images------*/
+
+img {
+    margin-bottom: 15px;
+}
+
+.flexible-width,
+.full-width {
+    width: 100%;
+}
+
+.small-width {
+    width: 160px;
     float: right;
     margin-left: 10px;
+}
 
+.dark-border {
+    border: 1px solid #1a0000;
+}
+
+.white-border {
+    border: 1px solid #fff;
+}
+
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* ----- main content------*/
@@ -155,6 +189,7 @@ header {
     margin-top: -20px;
     color: #000;
 }
+
 
 
 .intro-phrase {
@@ -222,9 +257,21 @@ footer {
     padding-top: 0.2em;
 }
 
-
+.timeline img {
+    margin-top: 15px;
+}
 
 /* ----- media rules------*/
+
+@media (min-width: 768px) {
+
+    .flexible-width {
+        width: 45%;
+        float: right;
+        margin-left: 10px;
+    }
+
+}
 
 @media (min-width: 992px) {
     .logo a {
@@ -235,4 +282,6 @@ footer {
         text-align: center;
 
     }
+
+
 }
