@@ -8,7 +8,6 @@ body {
     font-family: 'PT Serif', serif;
 }
 
-
 h1,
 h2 {
     font-family: 'Special Elite', cursive;
@@ -18,7 +17,6 @@ h3 {
     font-family: 'Special Elite', cursive;
     font-size: 1.3rem;
 }
-
 
 a {
     color: #ff9999;
@@ -32,19 +30,13 @@ a:hover {
 }
 
 .content {
-    padding: 20px 30px 20px 30px;
+    padding: 30px 35px 20px 35px;
 }
-
 
 .center {
     text-align: center;
     clear: both;
 }
-
-
-
-
-
 
 /* ----- header------*/
 
@@ -52,9 +44,7 @@ header {
     height: auto;
     background-color: #660000;
     font-family: 'Special Elite', cursive;
-
 }
-
 
 .main-picture {
     background: url("../images/trees-mono.jpg");
@@ -71,8 +61,6 @@ header {
 
 .logo {
     margin-top: 30px;
-
-
 }
 
 .logo a {
@@ -89,7 +77,6 @@ header {
 .subhead p {
     font-size: 23px;
     line-height: 1.3em;
-
 }
 
 .navbar {
@@ -97,7 +84,6 @@ header {
     background: #f8f9fa;
     color: #000;
     font-weight: 900;
-
 }
 
 .navbar-nav {
@@ -107,10 +93,7 @@ header {
 .nav-item {
     width: 25%;
     text-align: left;
-
 }
-
-
 
 .navbar-light .navbar-nav .nav-link {
     letter-spacing: 2px;
@@ -119,28 +102,21 @@ header {
     transition: all 1s ease-in-out;
 }
 
-
 .navbar-light .navbar-nav .active>.nav-link {
     color: #660000;
     font-weight: 900;
 }
 
-
 .navbar-light .navbar-nav .nav-link:hover {
     color: #463939;
     text-shadow: 0 0 8px #660000;
 }
-
-
-
+    
 /* ----- side-panel------*/
 
 .sidebar {
     background-color: #463939;
 }
-
-
-
 
 /* ----- images------*/
 
@@ -168,7 +144,6 @@ img {
 }
 
 
-
 .clearfix::after {
     content: "";
     clear: both;
@@ -182,15 +157,13 @@ img {
     width: 85%;
     position: relative;
     top: 70px;
-    margin: 0px auto 120px auto;
+    margin: 0px auto 130px auto;
     -webkit-box-shadow: 0px 0px 40px 30px rgba(248, 249, 250, 1);
     -moz-box-shadow: 0px 0px 40px 30px rgba(248, 249, 250, 1);
     box-shadow: 0px 0px 40px 30px rgba(248, 249, 250, 1);
     margin-top: -20px;
     color: #000;
 }
-
-
 
 .intro-phrase {
     font-family: 'Special Elite', cursive;
@@ -213,11 +186,6 @@ footer {
 
 /* ----- Excerpts -------*/
 
-.large {
-    font-size: 1.5em;
-}
-
-
 .read-more {
     float: right;
     color: #000;
@@ -236,7 +204,6 @@ footer {
     border-left: 3px solid;
     margin-left: 1em;
 }
-
 
 .timeline-item p {
     padding: 0;
@@ -270,7 +237,10 @@ footer {
         float: right;
         margin-left: 10px;
     }
-
+    
+    .content {
+    padding: 30px 50px 20px 50px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -280,8 +250,14 @@ footer {
 
     .nav-item {
         text-align: center;
-
     }
+}
 
 
+@media (min-width: 1680px) {
+    .flexible-width {
+        width: 20%;
+        float: right;
+        margin-left: 10px;
+    }
 }
