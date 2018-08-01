@@ -10,9 +10,8 @@ The course brief was to create a resposive website of four or five pages. I also
 
 The site is responsive and mobile first. It largely follows the rules of thirds.
 
-It presented a couple of issues. Firstly, it was always going to be quite a wordy site, so I needed a way to break those words up.  Pictures and headings weren’t going to be enough so I looked at changing the background colour in places and using different font sizes.
-
-The second issue was that the design needed to be quite dark to reflect the fact that it’s not exacctly a cheery novel. But a monochrome site would just look dull so I had to experiment with colour schemes to find colours that worked together but still suggested darkness – I used [this colour picker](https://www.w3schools.com/colors/colors_picker.asp) to help me with this. I used drop shadows on the white boxes to further suggest that sense of ‘eerieness’ and used appropriate fonts.
+It's quite a wordy site, which is the reason for the 'misty' backgrounds to break up the content
+The design is quite dark to reflect the fact that it’s not exacctly a cheery novel. 
 
 ## Navigation/Layout
 
@@ -26,7 +25,7 @@ The site consists of:
 
 * Opening – the entire first chapter of the novel. 
 
-* Contact – a contact form for interested agents, publishers etc. As it was just a front-end project, this form does not send or process any data at present.
+* Contact – a contact form for interested agents, publishers etc. '
 
 ## Frameworks
 
@@ -34,11 +33,19 @@ The site uses Bootstrap 4, with a collapsible navbar. It also uses a couple of G
 
 ## Build status
 
-Complete, apart from the form, which doesn't work yet. I may also add some tranitions if I have time. And some of the text will changes after the book is edited.
+Complete, though the content will probably change when the book is finished.
+
+## Testing
+
+The site has been tested on different browsers and via responsinator.com
 
 ## Deployment
 
-To get it up and running it's just six five web pages, one css file and 12 images.
+Can be run locally by just opening index.html. Or upload the files to a server. it's just six five web pages, one css file and 12 images that need hosting. The form works via EmailJs - so you would need an account
+
+## License information
+
+The design and structure is open source but all content of the novel is copyright of Richard Stainton.
 
 
 

@@ -143,7 +143,6 @@ img {
     border: 1px solid #fff;
 }
 
-
 .clearfix::after {
     content: "";
     clear: both;
@@ -230,8 +229,13 @@ footer {
 
 /* ----- media rules------*/
 
+
 @media (min-width: 768px) {
 
+    .small-width {
+    max-width: 60%;
+    }
+        
     .flexible-width {
         width: 45%;
         float: right;
@@ -252,7 +256,6 @@ footer {
         text-align: center;
     }
 }
-
 
 @media (min-width: 1680px) {
     .flexible-width {
