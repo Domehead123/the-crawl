@@ -2,6 +2,14 @@
 
 This website is to promote a The Crawl, a thriller novel I’m writing, and will actually be used when the novel is complete. It's also the first project for my Full Stack Developer course.
 
+## Author
+
+Richard Stainton
+
+## Demo
+
+[Site on GitHub](https://domehead123.github.io/the-crawl/)
+
 ## Installation
 
 ### Requirements
