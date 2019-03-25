@@ -12,6 +12,7 @@ Richard Stainton
 
 ## Installation
 
+
 ### Requirements
 
 * jquery-3.3.1.js
